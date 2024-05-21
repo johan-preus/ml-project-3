@@ -47,18 +47,18 @@ project-root/
 ## Dataset
 The dataset consists of chest X-ray images categorized into two classes:
 
-- NORMAL: Healthy individuals
-- PNEUMONIA: Individuals with pneumonia
-- 
+- **NORMAL**: Healthy individuals
+- **PNEUMONIA**: Individuals with pneumonia
+  
 Ensure the dataset is organized into the **train, test, and val directories** with appropriate subdirectories for each class.
 
 ## Data Preprocessing
 
 The preprocessing steps include:
 
-1. Loading Images: Images are loaded from the specified directories.
-2. Resizing with Padding: Images are resized to 256x256 pixels while maintaining the aspect ratio, and padding is applied to fill the empty space.
-3. Normalization: Pixel values are normalized to the range [0, 1].
+1. **Loading Images**: Images are loaded from the specified directories.
+2. **Resizing** with Padding: Images are resized to 256x256 pixels while maintaining the aspect ratio, and padding is applied to fill the empty space.
+3. **Normalization**: Pixel values are normalized to the range [0, 1].
 
 ## Model Architecture
 
